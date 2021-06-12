@@ -29,13 +29,33 @@ function Navbar() {
   }, []);
 
 
+  let count = 0;
+  let bodyFontDefault = 100;
+
+  function lessFontControl() {
+    if (count > -8) {
+      count -= 2;
+      document.body.style.fontSize = bodyFontDefault + count + '%';
+    }
+  }
+
+  function moreFontControl() {
+    if (count < 8) {
+      count += 2;
+      document.body.style.fontSize = bodyFontDefault + count + '%';
+    }
+  }
+
+
   return (
     <>
       <IconContext.Provider value={{ color: '#fff' }}>
         <nav className='navbar'>
+          <button onClick={lessFontControl}>A-</button>
+          <button onClick={moreFontControl}>A+</button>
           <div className='navbar-container container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-              <FaCarAlt className='navbar-icon' /> 
+              <FaCarAlt className='navbar-icon' />
               FACILIAUTO
             </Link>
             <div className='menu-icon' onClick={handleClick}>
