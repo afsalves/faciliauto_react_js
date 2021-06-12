@@ -33,17 +33,17 @@
 
 .top-line {
   color: #a020f0;
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 2.5em;
+  line-height: 1em;
   font-weight: 700;
-  letter-spacing: 1.4px;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   margin-bottom: 16px;
 }
 
 .heading {
   margin-bottom: 24px;
-  font-size: 48px;
+  font-size: 2em;
   line-height: 1.1;
   font-weight: 600;
   color: #f7f8fa;
@@ -60,7 +60,7 @@
 .home__hero-subtitle {
   max-width: 440px;
   margin-bottom: 35px;
-  font-size: 18px;
+  font-size: 1em;
   line-height: 24px;
 }
 

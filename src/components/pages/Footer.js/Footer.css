@@ -25,12 +25,12 @@
 
 .footer-subscription-heading {
   margin-bottom: 24px;
-  font-size: 24px;
+  font-size: 1em;
 }
 
 .footer-subscription-text {
   margin-bottom: 24px;
-  font-size: 20px;
+  font-size: 1em;
 }
 
 .footer-input {
@@ -39,7 +39,7 @@
   margin-right: 10px;
   outline: none;
   border: none;
-  font-size: 18px;
+  font-size: 0.9em;
   margin-bottom: 16px;
   border: 1px solid #fff;
 }
@@ -95,7 +95,7 @@
 /* Social Icons */
 .social-icon-link {
   color: #fff;
-  font-size: 24px;
+  font-size: 1.2em;
 }
 
 .social-media {
