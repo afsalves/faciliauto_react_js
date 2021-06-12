@@ -23,7 +23,7 @@ function Pricing() {
                 <p>por mês</p>
                 <ul className='pricing__container-features'>
                   <li>3 Reboques Gratuitos</li>
-                  <li>2% Cash Back sobre Serviços</li>
+                  <li>2% Cash de Back</li>
                   <li>2 Lavagens Completas</li>
                 </ul>
                 <Button buttonSize='btn--wide' buttonColor='primary'>
@@ -41,7 +41,7 @@ function Pricing() {
                 <p>por mês</p>
                 <ul className='pricing__container-features'>
                   <li>6 Reboques Gratuitos</li>
-                  <li>3.5% Cash Back sobre Serviços</li>
+                  <li>3.5% Cash de Back</li>
                   <li>5 Lavagens Completas</li>
                 </ul>
                 <Button buttonSize='btn--wide' buttonColor='purple'>
@@ -59,7 +59,7 @@ function Pricing() {
                 <p>por mês</p>
                 <ul className='pricing__container-features'>
                   <li>Reboques ilimitados</li>
-                  <li>5% Cash Back sobre Serviços</li>
+                  <li>5% Cash de Back</li>
                   <li>Lavagens Ilimitadas</li>
                 </ul>
                 <Button buttonSize='btn--wide' buttonColor='primary'>

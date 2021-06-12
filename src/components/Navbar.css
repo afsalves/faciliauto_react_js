@@ -151,3 +151,19 @@
     height: 120px;
   }
 }
+
+.accessibilityContainer {
+  margin-left: 50px;
+  display: flex;
+}
+
+.accessibilityButton {
+  color: #fff;
+  padding: 5px;
+  background: #1c2237;
+  margin-left: 10px;
+  font-size: 0.9em;
+  border-color: #fff;
+  border: 1px solid;
+  border-radius: 4px;
+}

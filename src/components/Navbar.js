@@ -33,14 +33,14 @@ function Navbar() {
   let bodyFontDefault = 100;
 
   function lessFontControl() {
-    if (count > -8) {
+    if (count > -4) {
       count -= 2;
       document.body.style.fontSize = bodyFontDefault + count + '%';
     }
   }
 
   function moreFontControl() {
-    if (count < 8) {
+    if (count < 24) {
       count += 2;
       document.body.style.fontSize = bodyFontDefault + count + '%';
     }
@@ -51,8 +51,10 @@ function Navbar() {
     <>
       <IconContext.Provider value={{ color: '#fff' }}>
         <nav className='navbar'>
-          <button onClick={lessFontControl}>A-</button>
-          <button onClick={moreFontControl}>A+</button>
+          <div className='accessibilityContainer'>
+            <button className='accessibilityButton' onClick={lessFontControl}>A-</button>
+            <button className='accessibilityButton' onClick={moreFontControl}>A+</button>
+          </div>
           <div className='navbar-container container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
               <FaCarAlt className='navbar-icon' />
@@ -61,6 +63,7 @@ function Navbar() {
             <div className='menu-icon' onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
             </div>
+
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
               <li className='nav-item'>
                 <Link to='/' className='nav-links' onClick={closeMobileMenu}>
